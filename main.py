@@ -106,7 +106,7 @@ def main():
                         fig, ax = plt.subplots()
                         ax.pie([match_percentage, non_match_percentage],
                                labels=[f"Match {match_percentage}%", f"Non-Match {non_match_percentage}%"],
-                               colors=['#ffffff', '#003566'], autopct='%1.1f%%', startangle=90)
+                               colors=['#8d99ae', '#003566'], autopct='%1.1f%%', startangle=90)
                         ax.axis('equal')
                         st.pyplot(fig)
 
